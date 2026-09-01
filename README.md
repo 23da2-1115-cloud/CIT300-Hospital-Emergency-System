@@ -1,18 +1,21 @@
-## Getting Started
+# CIT300 - Mini Hospital Emergency Management System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Overview
+This project is a console-based **Mini Hospital Emergency Management System** developed in **Java** as part of the CIT300 - Data Structures and Algorithms Individual Mid Assignment. The system simulates patient registration, emergency queue management, treatment completion, and patient visit history using core data structures implemented from scratch.
 
-## Folder Structure
+## Features
+- Register, search, and delete patient records
+- Manage an emergency queue of waiting patients (FIFO)
+- Track completed treatments using a stack (LIFO)
+- Maintain each patient's visit history using a singly linked list
 
-The workspace contains two folders by default, where:
+## Data Structures Used
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+| Data Structure | Used For | Operations Implemented |
+|---|---|---|
+| Binary Search Tree (BST) | Patient Records | Insert, Search, Delete, In-order Traversal |
+| Queue | Emergency Patient Queue | Enqueue, Dequeue, Display, Empty Handling |
+| Stack | Treatment History | Push, Pop, Display, Empty Handling |
+| Singly Linked List | Patient Visit History | Add, Remove, Search, Display |
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Project Structure
