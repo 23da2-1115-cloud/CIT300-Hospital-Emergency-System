@@ -46,3 +46,6 @@ CIT300-Hospital-Emergency-System/
 10. Display patient visit history
 0. Exit
 Enter your choice:
+
+## Author
+Nufaisa - SLTC, Student ID: 23DA2-1115
