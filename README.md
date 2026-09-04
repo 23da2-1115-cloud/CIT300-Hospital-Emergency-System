@@ -30,3 +30,19 @@ CIT300-Hospital-Emergency-System/
 │   ├── VisitLinkedList.java   # Linked list for visit history
 │   └── Main.java              # Menu-driven console application
 └── README.md
+
+## Sample Menu
+
+===== Mini Hospital Emergency Management System =====
+1. Register new patient
+2. Search patient by ID
+3. Delete patient
+4. Display all patients (in-order)
+5. Add patient to emergency queue
+6. Treat next patient (dequeue + push to stack)
+7. Display waiting queue
+8. Display treatment history (stack)
+9. Add visit to patient history
+10. Display patient visit history
+0. Exit
+Enter your choice:
