@@ -19,3 +19,14 @@ This project is a console-based **Mini Hospital Emergency Management System** de
 | Singly Linked List | Patient Visit History | Add, Remove, Search, Display |
 
 ## Project Structure
+CIT300-Hospital-Emergency-System/
+├── src/
+│   ├── Patient.java           # Patient entity
+│   ├── PatientBST.java        # BST for patient records
+│   ├── EmergencyQueue.java    # Queue for waiting patients
+│   ├── TreatmentRecord.java   # Treatment record entity
+│   ├── TreatmentStack.java    # Stack for treatment history
+│   ├── Visit.java             # Visit entity
+│   ├── VisitLinkedList.java   # Linked list for visit history
+│   └── Main.java              # Menu-driven console application
+└── README.md
